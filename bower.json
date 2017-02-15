@@ -1,0 +1,17 @@
+{
+  "name": "hapi-oracledb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/80xer/hapi-oracledb.git",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

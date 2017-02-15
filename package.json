@@ -1,0 +1,47 @@
+{
+  "name": "hapi-oracledb",
+  "description": "Hapi boilerplate. Node.js, Hapi, Oracledb, Handlebars.",
+  "version": "0.0.0",
+  "author": "80xer",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/80xer/hapi-oracledb.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "6.9.x"
+  },
+  "scripts": {
+    "start": "supervisor -e html,js server",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "boom": "^4.2.0",
+    "bower": "^1.8.0",
+    "debug": "^2.6.0",
+    "es6-promise": "^4.0.5",
+    "good": "^7.1.0",
+    "good-console": "^6.2.0",
+    "handlebars": "^4.0.6",
+    "handlebars-extend-block": "^1.0.0",
+    "hapi": "^16.1.0",
+    "hapi-assets": "^0.3.0",
+    "hapi-named-routes": "^0.3.0",
+    "inert": "^4.1.0",
+    "lodash": "^4.17.4",
+    "oracledb": "^1.12.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "code": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "lab": "^12.1.0"
+  }
+}
